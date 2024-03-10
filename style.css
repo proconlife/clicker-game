@@ -27,6 +27,12 @@ body {
     margin-top: 20px;
 }
 
+#click-instruction {
+    font-size: 18px; /* テキストサイズを少し大きくする */
+    color: #555; /* テキストカラーを指定 */
+    margin-bottom: 20px; /* クッキー画像との間に余白を作る */
+}
+
 button {
     background-color: #4CAF50; /* ボタンの背景色 */
     color: white; /* ボタンのテキストカラー */
