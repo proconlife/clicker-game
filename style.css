@@ -42,6 +42,29 @@ button:hover {
     background-color: #45a049; /* ホバー時の背景色 */
 }
 
+@media (max-width: 768px) { /* スマートフォンなどの小さい画面向けのスタイル */
+    #cookie {
+        width: 100%; /* 画像を横幅いっぱいに表示 */
+        max-width: 200px; /* 最大でも200px */
+        height: auto; /* 高さを自動調整してアスペクト比を保持 */
+    }
+    
+    #game-container {
+        padding: 10px; /* コンテナのパディングを調整 */
+    }
+
+    button {
+        width: 100%; /* ボタンを横幅いっぱいに表示 */
+        padding: 15px; /* ボタンのパディングを調整 */
+        font-size: 18px; /* ボタンのフォントサイズを大きくする */
+        margin-top: 10px; /* ボタンの上のマージンを追加 */
+    }
+
+    p {
+        margin: 20px 0; /* 段落のマージンを調整 */
+    }
+}
+
 p {
     font-size: 20px; /* テキストサイズ */
 }
