@@ -1,6 +1,26 @@
 body {
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* 背景色の変更 */
+    color: #333; /* テキストカラー */
+}
+
+#game-container {
+    margin-top: 50px;
+    background-color: #fff; /* コンテナの背景色 */
+    padding: 20px;
+    border-radius: 10px; /* 角の丸み */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影の追加 */
+}
+
+#cookie {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.1s ease; /* クリック時のアニメーション効果 */
+}
+
+#cookie:active {
+    transform: scale(0.98); /* クリック時に少し縮む効果 */
 }
 
 #upgrades {
@@ -8,17 +28,21 @@ body {
 }
 
 button {
-    padding: 10px;
+    background-color: #4CAF50; /* ボタンの背景色 */
+    color: white; /* ボタンのテキストカラー */
+    padding: 15px 32px;
     font-size: 16px;
+    border: none; /* 枠線を消す */
+    border-radius: 5px; /* ボタンの角を丸くする */
     cursor: pointer;
+    transition: background-color 0.3s ease; /* ホバー時の背景色変更の滑らかさ */
 }
 
-#game-container {
-    margin-top: 50px;
+button:hover {
+    background-color: #45a049; /* ホバー時の背景色 */
 }
 
-#cookie {
-    width: 200px;
-    cursor: pointer;
+p {
+    font-size: 20px; /* テキストサイズ */
 }
 
