@@ -42,6 +42,8 @@ button {
     border-radius: 5px; /* ボタンの角を丸くする */
     cursor: pointer;
     transition: background-color 0.3s ease; /* ホバー時の背景色変更の滑らかさ */
+    margin-top: 10px; /* ボタンの上のマージンを設定 */
+    margin-bottom: 10px; /* ボタンの下のマージンを設定 */
 }
 
 button:hover {
