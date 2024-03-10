@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    margin-top: 50px;
+}
+
+#cookie {
+    width: 200px;
+    cursor: pointer; /* クリック可能なことを示すカーソル */
+}
+
