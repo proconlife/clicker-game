@@ -15,33 +15,32 @@ header {
 #main-visual img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 section {
+    background-color: white;
     padding: 20px;
-    margin-top: 20px;
-}
-
-#features ul, #faq ul {
-    list-style: none;
-    padding: 0;
+    margin: 20px auto;
+    max-width: 800px; /* コンテンツの幅を適切に制限 */
 }
 
 h2 {
     color: #333;
 }
 
-li {
-    margin-bottom: 10px;
+ul, p {
+    margin-bottom: 20px;
 }
 
 .play-button {
     display: inline-block;
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    font-size: 18px; /* ボタンのフォントサイズを大きくして目立たせる */
 }
 
