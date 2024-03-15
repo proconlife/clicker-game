@@ -1,46 +1,81 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: left;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px 0;
-}
-
-#main-visual img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-
-section {
-    background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px; /* コンテンツの幅を適切に制限 */
-}
-
-h2 {
+    background-color: #f7f7f7;
     color: #333;
 }
 
-ul, p {
-    margin-bottom: 20px;
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#main-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+}
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px; /* コンテンツの幅を適切に制限 */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 12px; /* 角の丸みを加える */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none; /* リストのスタイルを除去 */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px; /* テキストのインデントを設定 */
+    position: relative;
+}
+
+li::before {
+    content: "—"; /* リストのマーカーをハイフンに変更 */
+    position: absolute;
+    left: 0;
 }
 
 .play-button {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #007aff;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px; /* ボタンのフォントサイズを大きくして目立たせる */
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 200px; /* ボタンの幅を指定 */
+    margin: 20px auto; /* ボタンを中央に配置 */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+#features, #reviews, #faq, #play-now {
+    text-align: left; /* 左揃えに設定 */
+}
+
+#faq ul {
+    margin-top: 20px;
+}
+
+#faq li strong {
+    display: block; /* 質問をブロック要素にして、回答との間にスペースを作る */
+    margin-bottom: 5px;
 }
 
