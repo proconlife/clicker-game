@@ -17,22 +17,21 @@ header {
     height: auto;
 }
 
-#features {
-    background-color: white;
+section {
     padding: 20px;
     margin-top: 20px;
 }
 
-#features h2, #download h2 {
-    color: #333;
-}
-
-#features ul {
+#features ul, #faq ul {
     list-style: none;
     padding: 0;
 }
 
-#features li {
+h2 {
+    color: #333;
+}
+
+li {
     margin-bottom: 10px;
 }
 
@@ -44,10 +43,5 @@ header {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
-}
-
-#download {
-    margin-top: 20px;
-    padding-bottom: 20px;
 }
 
